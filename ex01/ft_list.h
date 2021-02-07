@@ -6,7 +6,7 @@
 /*   By: manuel <mlrcbsousa@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/07 18:27:25 by manuel            #+#    #+#             */
-/*   Updated: 2021/02/07 22:25:51 by manuel           ###   ########.fr       */
+/*   Updated: 2021/02/07 23:06:23 by manuel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,14 +21,6 @@ typedef	struct		s_list
 	void			*data;
 }					t_list;
 
-t_list	*ft_create_elem(void *data)
-{
-	t_list	*elem;
-
-	elem = (t_list *)malloc(sizeof(t_list));
-	elem->data = data;
-	elem->next = NULL;
-	return (elem);
-}
+t_list	*ft_create_elem(void *data);
 
 #endif
