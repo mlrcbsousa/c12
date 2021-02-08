@@ -70,3 +70,5 @@ ex17/.ft_sorted_list_merge.c.swp
 ex17/ft_list.h.gch
 ex17/main.c
 ex17/a.out
+ex06/ft_list_push_strs.c
+ex06/ft_create_elem.c
